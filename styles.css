@@ -1,0 +1,71 @@
+@font-face { 
+    font-family: "Darker Grotesque";
+    src: url("assets/fonts/DarkerGrotesque-Regular.ttf");
+}
+
+body {
+    font-family: "Darker Grotesque", sans-serif;
+}
+.navlist-item {
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.navlist-item:hover {
+    text-decoration: underline
+}
+.img-mj-contact {
+    border-radius:275px;
+    height:300px;
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+}
+.contact-detail {
+    text-align: center;
+    font-size: larger;
+}
+.prestation-text-header {
+    text-align: center;
+    font-size: 180%;
+    color: #fff;
+    background-image: url(image/fondprestation.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.prestation-text {
+    text-align: center;
+    font-size: 120%;
+}
+.prestation-text-etape {
+    font-size: 120%;
+    position: center;
+    width: 600px;
+    margin-left: 207px;
+    margin-top: 20px;
+    text-align:justify;
+}
+.xl-font-size {
+    font-size: x-large;
+}
+.fading-text {
+    position: absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    background-color: #7984786e;
+    color:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:150%;
+    opacity: 0;
+    transition: .3s;
+}
+.fading-text:hover {
+    opacity: 1;
+}
+.prestation-borders {
+    border: 1px solid #5a5a5a;
+}
