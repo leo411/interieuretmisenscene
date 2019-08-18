@@ -69,3 +69,38 @@ body {
 .prestation-borders {
     border: 1px solid #5a5a5a;
 }
+.slide-from-left {
+    position: relative;
+    left: -100%;
+    animation-name: slide-from-left;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.first-element{
+    animation-delay: 0s;
+}
+.second-element{
+    animation-delay: .5s;
+}
+.third-element{
+    animation-delay: 1s;
+}
+.fourth-element{
+    animation-delay: 1.5s;
+}
+.fifth-element{
+    animation-delay: 2s;
+}
+.sixth-element{
+    animation-delay: 3s;
+}
+@keyframes slide-from-left {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
