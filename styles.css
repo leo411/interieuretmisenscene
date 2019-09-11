@@ -112,3 +112,6 @@ h1 {
         left: 0;
     }
 }
+.carrousel {
+    max-height: 450px;
+}
