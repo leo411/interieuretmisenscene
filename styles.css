@@ -53,10 +53,8 @@ h1 {
     margin-top: 20px;
     text-align: justify;
 }
-.prestation-box-top {
-    padding-left: 35px;
-    padding-right: 35px;
-    background-color: lightslategrey;
+.prestation-box {
+    background-color: #e9ecef;
 }
 .xl-font-size {
     font-size: x-large;
