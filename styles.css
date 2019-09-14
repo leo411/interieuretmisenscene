@@ -73,6 +73,7 @@ h1 {
     font-size: 150%;
     opacity: 0;
     transition: 0.3s;
+    z-index: 1;
 }
 .fading-text:hover {
     opacity: 1;
