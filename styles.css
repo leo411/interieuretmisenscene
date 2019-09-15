@@ -72,7 +72,7 @@ h1 {
     justify-content: center;
     font-size: 150%;
     opacity: 0;
-    transition: 0.3s;
+    transition: opacity 0.3s;
     z-index: 1;
 }
 .fading-text:hover {
@@ -118,4 +118,10 @@ h1 {
 }
 .carrousel {
     max-height: 90vh;
+}
+.grid-item {
+    width: 200px;
+}
+.grid-item--width2 {
+    width: 400px;
 }
