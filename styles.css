@@ -125,3 +125,7 @@ h1 {
 .grid-item--width2 {
     width: 400px;
 }
+.link-color {
+    color: #212529;
+    text-decoration: none;
+}
