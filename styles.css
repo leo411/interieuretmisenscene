@@ -144,3 +144,6 @@ h1 {
 .fadelement {
     opacity: 0;
 }
+.font-size-text {
+    font-size: 120%;
+}
